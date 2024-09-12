@@ -20,7 +20,7 @@ function pesquisar() {
         descricao = dado.descrição.toLowerCase()
         tags = dado.tags.toLowerCase()
 
-        if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
+        if (titulo.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
             resultados += `
             <div class="item-resultado">
                 <div class="image">

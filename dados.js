@@ -4,7 +4,8 @@ let dados = [
         titulo : "Homem de Ferro",
         descrição : "O Homem de Ferro, alter ego do bilionário e inventor Tony Stark, é um dos pilares do universo Marvel. O personagem é conhecido por sua inteligência afiada, sarcasmo e sua poderosa armadura de alta tecnologia. Com sua fortuna e engenhosidade, ele combate o crime e ameaças globais, sempre com um toque de ironia e um ego inegável.",
         link : "https://pt.wikipedia.org/wiki/Homem_de_Ferro",
-        tags : "Vingadores"
+        tags : "Vingadores",
+        imgSrc: "img/homem-de-ferro.webp"
     },
     {
         titulo: "Capitão América",
@@ -71,8 +72,7 @@ let dados = [
         titulo: "Falcão",
         descrição: "Sam Wilson, um ex-militar que recebeu um traje especial com asas que lhe permitem voar. O Falcão é um dos melhores amigos do Capitão América e, posteriormente, assumiu o manto do Capitão América.",
         link: "https://pt.wikipedia.org/wiki/Falc%C3%A3o_(Marvel_Comics)",
-        tags : ""
-    },
+        tags : ""},
     {
         titulo: "Máquina de Combate",
         descrição: "James Rhodes, um piloto da Força Aérea que utiliza uma armadura similar à do Homem de Ferro. O Máquina de Combate é um dos melhores amigos de Tony Stark e um aliado leal dos Vingadores.",
@@ -127,6 +127,7 @@ let dados = [
         titulo: "Deadpool",
         descrição: "Wade Wilson, um mercenário com um fator de cura acelerado e um senso de humor bastante peculiar. Deadpool é conhecido por quebrar a quarta parede e por sua personalidade anti-herói.",
         link: "https://pt.wikipedia.org/wiki/Deadpool",
-        tags : "dedpool dadpool"
+        tags: "dedpool dadpool",
+        imgSrc: "img/deadpool.webp"
     },
 ]

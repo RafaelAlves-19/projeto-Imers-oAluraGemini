@@ -71,11 +71,33 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
+    display: flex;
     background: #FFFFFF; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.item-resultado > div.image {
+    height: 150px;
+    width: 150px;
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.item-resultado > div.description {
+    flex-basis: 0;
+    flex-grow: 5;
+}
+
+.item-resultado > div.image > img {
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 0.6rem;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */

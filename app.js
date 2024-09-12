@@ -30,9 +30,10 @@ function pesquisar() {
             `
         }
 
-        if (!resultados) {
-            resultados = "<p> Nada foi encontrado </p>"
-        }
+    }
+    
+    if (!resultados) {
+        resultados = "<p> Nada foi encontrado </p>"
     }
 
     section.innerHTML = resultados
